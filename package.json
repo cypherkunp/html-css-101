@@ -1,0 +1,8 @@
+{
+  "name": "css-101",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/try-code/css-101.git",
+  "author": "Devvrat Shukla <devvrat.shukla@publicissapient.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,33 @@
+p::first-line {
+  font-style: italic;
+}
+
+p::first-letter {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.btn {
+  background: green;
+  color: black;
+  padding: 25px 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-inline-block {
+  display: inline-block;
+  background: green;
+  color: black;
+  padding: 25px 75px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background: lightblue;
+}
+
+.btn-inline-block:hover {
+  background: lightblue;
+}

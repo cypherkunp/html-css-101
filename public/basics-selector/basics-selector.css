@@ -1,0 +1,58 @@
+* {
+  outline: red solid 1px;
+}
+
+p::first-letter {
+  text-transform: capitalize;
+  font-size: x-large;
+  background-color: bisque;
+}
+
+span,
+strong {
+  background-color: yellow;
+}
+
+li::selection {
+  background-color: aqua;
+}
+
+ul#city-list > li:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+div h2 {
+  background-color: aqua;
+}
+
+.green-list {
+  color: green;
+}
+
+li.green-list ~ li {
+  background-color: greenyellow;
+}
+
+li.white-list + li {
+  background-color: blueviolet;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+h2:only-child {
+  display: inline-block;
+  background-color: chartreuse;
+}
+
+.div1 {
+  margin-bottom: 20px;
+}
+.div2 {
+  margin-top: 30px;
+}
